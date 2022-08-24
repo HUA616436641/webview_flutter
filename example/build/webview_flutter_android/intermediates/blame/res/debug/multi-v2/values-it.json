@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hawor/Documents/demo/plugins/packages/webview_flutter/example/build/webview_flutter_android/intermediates/res/merged/debug/values-it/values-it.xml",
+            "map": [
+                {
+                    "source": "/Users/hawor/.gradle/caches/transforms-2/files-2.1/dc5bf2d48884bfa1e05fad571290dab0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/hawor/Documents/demo/plugins/packages/webview_flutter/example/build/webview_flutter_android/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "map": [
+                {
+                    "source": "/Users/hawor/.gradle/caches/transforms-2/files-2.1/dc5bf2d48884bfa1e05fad571290dab0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

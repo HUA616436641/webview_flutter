@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="io.flutter.plugins.x5webviewflutter" >
+5
+6    <uses-sdk android:minSdkVersion="19" />
+6-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+8-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:5:5-81
+8-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:5:22-78
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:6:5-79
+9-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:6:22-76
+10    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+10-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:7:5-76
+10-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:7:22-73
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:8:5-67
+11-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:8:22-64
+12
+13    <application>
+13-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:9:5-24:19
+14        <service
+14-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:10:9-13:49
+15            android:name="com.tencent.smtt.export.external.DexClassLoaderProviderService"
+15-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:11:13-90
+16            android:label="dexopt"
+16-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:12:13-35
+17            android:process=":dexopt" />
+17-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:13:13-38
+18
+19        <provider
+19-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:14:9-23:20
+20            android:name="androidx.core.content.FileProvider"
+20-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:15:13-62
+21            android:authorities="${applicationId}.fileprovider"
+21-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:16:13-64
+22            android:exported="false"
+22-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:17:13-37
+23            android:grantUriPermissions="true"
+23-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:18:13-47
+24            tools:replace="android:authorities" >
+24-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:19:13-48
+25            <meta-data
+25-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:20:13-22:53
+26                android:name="android.support.FILE_PROVIDER_PATHS"
+26-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:21:17-67
+27                android:resource="@xml/filepaths" />
+27-->/Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:22:17-50
+28        </provider>
+29    </application>
+30
+31</manifest>

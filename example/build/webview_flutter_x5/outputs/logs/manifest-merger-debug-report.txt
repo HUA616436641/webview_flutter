@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:9:5-24:19
+service#com.tencent.smtt.export.external.DexClassLoaderProviderService
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:10:9-13:49
+	android:process
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:13:13-38
+	android:label
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:12:13-35
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:11:13-90
+provider#androidx.core.content.FileProvider
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:14:9-23:20
+	android:grantUriPermissions
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:18:13-47
+	android:authorities
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:16:13-64
+	android:exported
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:17:13-37
+	tools:replace
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:19:13-48
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:15:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:20:13-22:53
+	android:resource
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:22:17-50
+	android:name
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml:21:17-67
+uses-sdk
+INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+		ADDED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/hawor/Documents/demo/plugins/packages/webview_flutter/android/src/main/AndroidManifest.xml
